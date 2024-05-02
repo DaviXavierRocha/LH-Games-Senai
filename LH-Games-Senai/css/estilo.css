@@ -1,0 +1,58 @@
+/*cabeçalho*/
+
+
+/*Conteudo principal*/
+h2{text-align: center;} /* estilo e alinhamento do h2 */
+#section-banners img{height:500px}
+/*banner*/
+
+/*Produtos vendidos*/
+#section-vendidos {text-align: center;} /* alinhamento do texto no centro */
+
+#section-vendidos h2 {/* estilo e preenchimento da fonte */
+    font-weight: bold;
+    padding: 20px;
+}#section-vendidos img { /* tamanho e raio da borda (curvatura, no caso) da imagem */
+    height: 300px;
+    border-radius: 10px;
+}#section-vendidos .card { /* Margem, tipo de borda e raio da borda do card */
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}#section-vendidos .preco { /* Tamanho da fonte, cor e tipo */
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Rodapé*/
+
+
+footer p{ /* alinhamento central do texto do rodapé, tipo da fonte e preenchimento */
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo { /* botão de retornar ao topo está fixo a 50 pixels a esquerda do canto direito e 5 pixeis acima da borda inferior */
+    position: fixed; /* posição fixada */
+    bottom: 5px; /* 5 pixeis acima do canto inferior da página  */
+    right: 50px; /* 50 pixeis a esquerda do canto direito */
+    }
+
+/* página de login  */
+
+#section-login{margin-top: 100px;}
+#section-login h1 {text-align: center;}
+#section-login input {width: 100%;}
+
+/* Formulário de cadastro*/
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
